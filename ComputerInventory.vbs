@@ -14,7 +14,7 @@ WScript.Echo "Inventory Complete "
 SUB GenerateReport(strIPvalue)
 
 'Script to change a filename using timestamps
-strPath = "\\uscogr00mgt1ai\uscogr00fil13i\utilities\W7_Inventory\" 'Change the path to appropriate value
+strPath = "\\<path of your>\<output>\" 'Change the path to appropriate value
 strMonth = DatePart("m", Now())
 strDay = DatePart("d",Now())
 
